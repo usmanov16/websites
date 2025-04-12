@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+  background-attachment: fixed;
+}
+.tittle {
+  font-size: 50px;
+}
+a {
+  color: #f2f5f5;
+}
+.list {
+  margin-top: 30px;
+  text-decoration: none;
+  display: flex;
+  gap: 30px;
+}
+#menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhHK6ZzADvbYGYjKAh2HUFhLrKoej1xgKD5A&s");
+}
+#uzbek {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.squarespace-cdn.com/content/v1/63e52e92b5e81e20127d91c0/ceb8c6d4-8e14-4a8d-aa7f-4497df12e172/Samarkand_Plov");
+}
+#italian {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://florafoods.com/wp-content/uploads/2020/09/AdobeStock_224044706-1-scaled-1-1000x565.webp");
+}
+#french {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.completefrance.com/wp-content/uploads/2023/04/Soupe-a-loignon-scaled.jpeg");
+}
+#russian {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://loginlublin.pl/wp-content/uploads/2017/03/borsc-foto-16.jpg");
+}
+#usa {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1273516682.jpg?c=original");
+}
